@@ -1,0 +1,14 @@
+name: r-shinybibs
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - conda-forge::r-tidyverse
+  - conda-forge::r-bib2df
+  - conda-forge::r-base
+  - conda-forge::r-shiny
+  - conda-forge::r-shinyalert
+  - conda-forge::r-shinycssloaders
+  - conda-forge::r-lubridate
+  - conda-forge::r-DT
